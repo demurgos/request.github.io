@@ -1,0 +1,54 @@
+.book-summary ul.summary li[data-level="1.3.1"] li a::before {
+  display: inline-block;
+  height: 1.1em;
+  width: 1.1em;
+  vertical-align: bottom;
+
+  border-radius: 0.2em;
+  text-align: center;
+  font-weight: bold;
+
+  background-size: 1.1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Main module icon */
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.1"] a::before
+{
+  content: '';
+  color: transparent;
+  background-image: url('https://cdn.rawgit.com/request/request.github.io/master/images/logo.svg');
+}
+
+/* Class icon */
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.3"] a::before,
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.4"] a::before,
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.5"] a::before
+{
+  content: 'C';
+  color: white;
+  background-color: #e1a72a;
+}
+
+/* Interface icon */
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.2"] a::before,
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.6"] a::before,
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.7"] a::before,
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.8"] a::before,
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.9"] a::before
+{
+  content: 'i';
+  color: white;
+  background-color: #00e1cf;
+}
+
+/* Main module icon */
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.1"] a,
+.book-summary li[data-level="1.3.1"] li[data-level="1.3.1.2"] a
+{
+  font-weight: bold;
+}
+
+
+
